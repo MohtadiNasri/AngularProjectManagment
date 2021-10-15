@@ -5,11 +5,12 @@ import { Component } from "@angular/core";
   template: `
   <div>
     <h1>{{pageTitle}}</h1>
-    <div>My First Component</div>
+    <!--Adding Product List Component-->
+    <pm-products></pm-products>
   </div>`
 })
 export class AppComponent {
 
-  pageTitle: string = "page title : Acme Product Managment";
+  pageTitle: string = "Acme Product Managment";
 
 }
